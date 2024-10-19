@@ -1,5 +1,5 @@
 import streamlit as st  # Import Streamlit for building the web application
-from vector_store import load_vector_store  # Import function to load vector store for document retrieval
+from vector_store.vector_store import load_vector_store  # Import function to load vector store for document retrieval
 from conversational_chain import get_answer  # Import function to get answers from the conversational model
 from utils.validations import extract_date, validate_email, validate_phone_number  # Import validation functions
 

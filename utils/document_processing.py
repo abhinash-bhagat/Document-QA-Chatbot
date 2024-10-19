@@ -1,4 +1,3 @@
-# utils/document_processor.py
 import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from utils.document_handler import get_pdf_text, get_docx_text, get_txt_text

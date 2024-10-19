@@ -1,7 +1,7 @@
 import streamlit as st  # Import the Streamlit library for building the web app
 from utils.document_processing import process_documents, get_text_chunks  # Import functions for processing documents
 from conversational_chain import get_answer  # Import the function to get answers from the chatbot
-from vector_store import setup_vector_store  # Import the function to set up the vector store for document retrieval
+from vector_store.vector_store import setup_vector_store  # Import the function to set up the vector store for document retrieval
 from form_handlers import handle_user_input  # Import the function for handling user input
 
 def main():
