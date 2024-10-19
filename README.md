@@ -37,3 +37,6 @@ To run the Document QA Chatbot locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/document-qa-chatbot.git
    cd document-qa-chatbot
+4. **Run the application:**
+   ```bash
+   streamlit run app.py
