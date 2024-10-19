@@ -35,8 +35,7 @@ To run the Document QA Chatbot locally, follow these steps:
    source venv/bin/activate  # On Windows use `venv\Scripts\activate` 
 3. **Install the required dependencies:**
    ```bash
-   git clone https://github.com/your-username/document-qa-chatbot.git
-   cd document-qa-chatbot
+   pip install -r requirements.txt
 4. **Run the application:**
    ```bash
    streamlit run app.py
